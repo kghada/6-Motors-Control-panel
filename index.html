@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> ControlPanel</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+      
+    </head>
+
+    <body>   
+
+        
+<section class="showcase"> 
+    <div class="video-container">
+     
+        <video src="https://vod-progressive.akamaized.net/exp=1624569570~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F4417%2F17%2F447087612%2F1961769893.mp4~hmac=d89b5bf623dc2eb13a4e4589fcdd59ecdb5024fbefa13a02fbb7cb0656e96d05/vimeo-prod-skyfire-std-us/01/4417/17/447087612/1961769893.mp4?download=1&filename=Network+-+45961.mp4" autoplay muted loop></video>
+   
+    </div>
+    
+    <div class="content">
+       <div class="topnav"><b1>Control Panel</b1></div><br>
+         
+       <form class="range" action="index.php" method='POST'>
+
+       <h3>Motor 1:</h3><input type="range" name="Motor1" id="Range1" value="90" min="0" max="180" onchange="range()">
+       <span id="value1"></span> <br><br>
+
+        <h3>Motor 2:</h3><input type="range" name="Motor2" id="Range2" value="90" min="0" max="180" onchange="range()">
+        <span id="value2"></span> <br><br>
+
+        <h3>Motor 3:</h3><input type="range" name="Motor3" id="Range3" value="90" min="0" max="180" onchange="range()">
+        <span id="value3"></span> <br><br>
+
+        <h3>Motor 4:</h3><input type="range" name="Motor4" id="Range4" value="90" min="0" max="180" onchange="range()">
+        <span id="value4"></span> <br><br>
+
+        <h3>Motor 5:</h3><input type="range" name="Motor5" id="Range5" value="90" min="0" max="180" onchange="range()">
+        <span id="value5"></span> <br><br>
+
+        <h3>Motor 6:</h3><input type="range" name="Motor6" id="Range6" value="90" min="0" max="180" onchange="range()">
+        <span id="value6"></span> <br><br>
+
+        <input type="submit" value="ON" name="ON" class="btn">
+        <input type="submit" value="OFF" name="OFF" class="btn">
+        <input type="submit" value="Save" name="save" class="btn">
+  
+      
+        </form>
+
+        
+    <a href="#about" class="btn">Read More</a>
+
+        
+
+    </div>   
+</section>
+
+<script>                
+       function range() {
+             var v1 = document.getElementById("Range1").value;
+            document.getElementById("value1").innerHTML = v1 +"°";
+
+            var v2 = document.getElementById("Range2").value;
+            document.getElementById("value2").innerHTML = v2 + "°";
+
+             var v3 = document.getElementById("Range3").value;
+            document.getElementById("value3").innerHTML = v3 + "°";
+
+             var v4 = document.getElementById("Range4").value;
+            document.getElementById("value4").innerHTML = v4 + "°";
+
+             var v5 = document.getElementById("Range5").value;
+            document.getElementById("value5").innerHTML = v5 + "°";
+
+             var v6 = document.getElementById("Range6").value;
+            document.getElementById("value6").innerHTML = v6 + "°";
+        } 
+
+</script>
+
+
+                          
+
+<section id="about">
+
+    <h1><em>About</em></h1>
+    <p>
+        Robotic arm control panel
+        Webpage for controlling six-motors
+    </p>
+</section>
+
+    </body>
+</html>
