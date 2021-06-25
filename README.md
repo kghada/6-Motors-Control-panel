@@ -8,5 +8,5 @@ This repository contains:
 <li>main.css</li>   
 <li>main.php</li>  
 <li>Records.php</li>
-<li>Rangevalues.csv</li>
+<li>Rangevalues.sql</li>
  <ul/>
