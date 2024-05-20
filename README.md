@@ -12,8 +12,8 @@ This project provides a web-based control panel for managing a robotic arm equip
 
 ## Features
 
-- **User Input**: Users can easily input the desired angles for each of the six motors via a web form.
-- **Control Panel**: The web-based interface is designed for intuitive control and monitoring of the robotic arm.
+- **User Input**: Users can easily choose the desired angles for each of the six motors.
+- **Control Panel**: The web-based interface is designed for controlling and monitoring of the robotic arm.
 - **Database Integration**: The system stores and retrieves angle values in a database, facilitating efficient management of movement commands.
 - **Record Keeping**: The control panel maintains a log of past movements, allowing users to review and analyze the robotic arm's activity.
 
