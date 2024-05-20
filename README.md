@@ -32,4 +32,4 @@ To run this project, ensure you have the following software installed:
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/yourusername/robotic-arm-control-panel.git
+   git clone https://github.com/kghada/6-Motors-Control-panel.git
